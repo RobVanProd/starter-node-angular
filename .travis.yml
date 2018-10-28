@@ -10,9 +10,12 @@ install:
   - npm install
 script:
   - npm test
+<<<<<<< HEAD
 deploy:
   - provider: script
     skip_cleanup: true
     script: chmod +x ./deploy.sh && ./deploy.sh
     on:
       branch: master
+=======
+>>>>>>> 48c27bab4db340d830c4fb1c6f895eba90f4b3b9
